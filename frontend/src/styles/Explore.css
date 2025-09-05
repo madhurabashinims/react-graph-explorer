@@ -1,0 +1,53 @@
+/* General page */
+.explore {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+/* Panels */
+.panel {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Columns as chips */
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border-radius: 16px;
+  font-size: 0.85rem;
+}
+
+/* Table */
+.table-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+}
